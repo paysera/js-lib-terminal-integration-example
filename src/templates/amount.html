@@ -1,0 +1,34 @@
+<div data-ng-controller="AmountSelectController as vm">
+    <div>
+        <div class="alerts-wrapper" data-ng-if="vm.errors.length > 0">
+            <div class="alert alert-danger" data-ng-repeat="error in vm.errors track by $index">
+                <div data-ng-bind="error"></div>
+            </div>
+        </div>
+
+        <div class="alerts-wrapper">
+            <div class="alert alert-info" data-ng-bind=" ('integration.amount.description'|trans) "></div>
+        </div>
+
+        <div class="search-field-wrapper">
+            <input type="text"
+                   id="fill-amount"
+                   autocomplete="off"
+                   data-ng-model="vm.amount"
+                   data-ng-virtual-keyboard="vm.keyboardConfig" />
+
+            <div class="label-wrapper">
+                <div class="line fl"></div>
+                <div class="line fr"></div>
+                <label for="fill-amount" data-ng-bind=" ('integration.amount.form.label'|trans) "></label>
+                <div class="cb"></div>
+            </div>
+
+            <div class="keyboard-wrapper"></div>
+        </div>
+
+        <div class="text-center padding-top-20">
+            <button class="custom-button" data-ng-click="vm.transfer()" data-ng-bind=" ('integration.amount.next'|trans) "></button>
+        </div>
+    </div>
+</div>

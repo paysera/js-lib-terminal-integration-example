@@ -1,0 +1,28 @@
+{
+  "name": "js-lib-terminal-integration-example",
+  "version": "0.0.1",
+  "description": "Example code for Paysera terminal integration",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "lite-server",
+    "build": "./node_modules/gulp/bin/gulp.js build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paysera/js-lib-terminal-integration-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-template": "4.0.0",
+    "add-stream": "1.0.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "lite-server": "^2.2.0"
+  }
+}

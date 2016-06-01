@@ -1,0 +1,12 @@
+<div data-ng-controller="FillController as tp">
+    <div class="panel panel-primary">
+        <div class="panel-body">
+            <div class="pull-left h4" data-ng-bind-html=" ('integration.fill.call_to_action'|trans) "></div>
+            <button data-ng-click="tp.yes()"
+                    data-ng-bind=" ('integration.fill.proceed'|trans) "
+                    class="btn btn-primary btn-lg pull-right"
+            ></button>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>

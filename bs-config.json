@@ -1,0 +1,7 @@
+{
+  "server": {
+    "baseDir": "./"
+  },
+  "startPath": "dist/integration.js",
+  "https": true
+}
