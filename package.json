@@ -17,7 +17,7 @@
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-jshint": "^2.0.1",
-    "gulp-sourcemaps": "^1.6.0",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-angular-templatecache": "^1.8.0",
     "gulp-template": "4.0.0",
     "add-stream": "1.0.0",
